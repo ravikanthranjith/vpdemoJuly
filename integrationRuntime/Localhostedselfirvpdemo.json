@@ -1,0 +1,6 @@
+{
+	"name": "Localhostedselfirvpdemo",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

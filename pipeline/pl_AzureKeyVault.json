@@ -1,0 +1,19 @@
+{
+	"name": "pl_AzureKeyVault",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-08-01T01:40:43Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

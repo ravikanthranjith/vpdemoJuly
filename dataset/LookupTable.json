@@ -1,0 +1,25 @@
+{
+	"name": "LookupTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DemoLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "DemoParameterization"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "TABLENAME",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "METADATA"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

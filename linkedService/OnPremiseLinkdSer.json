@@ -1,0 +1,16 @@
+{
+	"name": "OnPremiseLinkdSer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-4UDHAKO;initial catalog=AdventureWorksDW2019;user id=rkr_87",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzZmQ5NTkxOC1mZWVmLTQ3MTYtOGU5OC1lNzEyYjQ2MzZhN2IiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IRlocal",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

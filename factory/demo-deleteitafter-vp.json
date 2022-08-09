@@ -1,0 +1,9 @@
+{
+	"name": "demo-deleteitafter-vp",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "63e9e0f9-0d1a-4ae8-92a7-c714ab6b3636",
+		"tenantId": "b2ef953e-b5c8-4ece-bfe7-6b5e378f5241"
+	}
+}

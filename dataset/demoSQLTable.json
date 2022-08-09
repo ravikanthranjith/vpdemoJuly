@@ -1,0 +1,34 @@
+{
+	"name": "demoSQLTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DemoLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Initial"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "AppID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AppName",
+				"type": "varchar"
+			},
+			{
+				"name": "AppShortName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TICKET_CATEGORIES"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
